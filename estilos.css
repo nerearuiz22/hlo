@@ -1,0 +1,64 @@
+#cabecera {  /*Container with an assigned name*/
+    
+    text-align: center; /*To align text*/
+    background-image: url("cabecera.gif"); /*Background image of the page header, it is a gif*/
+    background-size: cover; /*Size and space occupied by the background*/
+    border-radius: 15px; /*To round the edges of content*/
+    padding: 10px; /*Creates the space or area around the content of an element, It can be on the right, left, top, bottom or on all sides.*/
+    text-shadow: 2px 2px 8px gray; /*Add shadow to text*/
+}
+
+#body {
+    background-image: linear-gradient(to left,rgb(235, 220, 230),rgb(187, 150, 167)); /*Page background*/
+}
+
+#introduccion {
+    text-shadow: 2px 2px 8px gray;
+    text-align: justify;
+    margin-left:150px; /*Set a margin for the content. It can be on the right, left, top, bottom or on all sides.*/
+    margin-right:150px;
+    background-image: linear-gradient(to left,rgb(241, 233, 234),white); /*Content background*/
+    margin-top: 30px;
+    border-radius: 15px;
+    padding:10px;
+    margin-bottom: 15px;
+}
+
+#contenido {
+    text-shadow: 2px 2px 8px gray;
+    margin-bottom: 30px;
+    margin-left:150px;
+    margin-right:150px;
+    column-count: 2; /*To define text columns*/
+    text-align: justify;
+}
+
+#sectioncontenido {
+    text-align: justify;
+    background-image: linear-gradient(to left,rgb(241, 233, 234),white);
+    padding: 15px;
+    padding-top: 5px ;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+#imagen {
+    border-radius: 10px;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px 8px gray; /*Defines the shadow of the box where the content is located*/
+}
+
+
+#h2 {
+    text-align: center;
+    text-shadow: 2px 2px 8px gray;
+}
+
+#pie {
+    color: white; /*Font color*/
+    background-image: linear-gradient(to left,rgb(99, 52, 85),rgb(92, 64, 76));
+    margin-top: 15px;
+    border-radius: 15px;
+    padding:8px;
+    text-shadow: 2px 2px 8px gray;
+}

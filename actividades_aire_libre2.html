@@ -1,0 +1,189 @@
+<!DOCTYPE html> <!--Indicates what type of document the browser should open-->
+<html>
+    <head>
+        <meta charset="utf-8"> <!--I define what character encoding format my website uses-->
+        <link rel="stylesheet" type="text/css" href="estilos.css"> <!--To link my CSS document-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    </head>
+    
+    <body id="body"> <!--With the id="name" tag I name the containers to edit them later in CSS-->
+        <font color="6F3D57"> <!--I define the font color-->
+
+        <header id="cabecera" align="center"> <!--With the div tag I group the content into differentiated blocks-->
+          <img src="noselogo.png" width="320px" id="logoempresa">
+          <h1><font size="50" color="white" face="Arial Black">Los Cerezos</font></h1> <!--The h1 tag is the biggest header-->
+            <h1><font color="white" face="Arial Black">Nuestras actividades al aire libre.</font></h1> <!--In the font tag I not only define the 
+            color of the font, but also its typography, size and alignment-->
+            <i class="bi bi-usb-plug"></i>
+            <button type="button" class="btn btn-dark">Dark</button>
+
+            <nav>
+                <li>
+                  <img src="noselogo.png" width="15px" id="logoempresa"><a href="https://jimmyvazz.medium.com/ensamblador-lenguaje-maquina-escribiendo-un-hola-mundo-beafd9848576" alt="Enlace a página web.">Enlace a página web.</a>
+                </li>
+                <li>
+                  <i class="bi bi-usb-plug"><h6>Lista de menú</h6></i>
+                </li>
+                <li>
+                  <i class="bi bi-umbrella"><h6>Lista de menú</h6></i>
+                </li>
+                <ul>
+                  <li>si</li>
+                  <li>no</li>
+                </ul>
+            </nav>
+
+        </header>
+        
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <main>
+            <div id="introduccion" align="center" >
+                <p><font face="Arial" color="6F3D57">Los Cerezos se encuentra en una de las <b>mejores zonas geográficas de Huelva</b>, en concreto
+                en el <b>Bosque de los Cerezos de la reserva natural de la laguna de El Portil</b>. La diversión está
+                asegurada ya que disponemos de numerosas actividades de ocio y aventura al aire libre, en las que disfrutaras de la 
+                naturaleza de la zona.</font></p> <!--The p tag is a paragraph and the b tag is for underlining bold text-->
+            </div>
+
+            <div id="contenido">
+                <font face="Arial">
+                <section id="sectioncontenido"> <!--With the section tag I establish a content block within the div-->
+                    <h2 id="h2"><font face="Arial Black">Rutas de senderismo</font></h2> <!--The h2 tag is a smaller header than h1-->
+
+                    <div align="center"><img src="senderismo1.jpg" width="320px" id="imagen"></div><figure>Pie de imagen</figure>
+                    <!--I link an image that is located within the folder where the html document is, and I also define its attributes-->
+                    <div align="center"><img src="senderismo2.jpeg" width="320px" id="imagen"></div>
+
+                    <article>A pesar de que ofrecemos varias rutas de senderismo guiadas, nuestra <b>ruta estrella es la de la Laguna 
+                    de El Portil</b>.Lo más atractivo de esta ruta de unos 3 kilómetros son las pasarelas de madera que hay que 
+                    atravesar al rodear la laguna para salvar las dunas. <i>Hay que comenzar a las afueras del pueblo de 
+                    El Portil, junto al pinar. Al ser circular, fácil y con sombra, es ideal para cualquier persona.</i></article>
+                </section>
+        
+                <section id="sectioncontenido">
+                    <dd><h2 id="h2"><font face="Arial Black">Parque de aventuras y tirolinas</font></h2> </dd>
+
+                    <div align="center"><img src="tirolina1.jfif" id="imagen"></div>
+                    <div align="center"><img src="tirolina2.jpg" width="320px" id="imagen"></div>
+
+                    <p>Te divertiras en nuestro <b>parque natural que cuenta con 7 circuitos de aventura con 50 juegos en los 
+                    árboles y 10 tirolinas</b>, 4 de ellas con más de 350 metros de recorrido. Con las tirolinas disfrutarás de 
+                    las maravillosas vistas desde el aire.</p>
+                </section>
+
+                <section id="sectioncontenido">
+                    <h2 id="h2"><font face="Arial Black">Paintball</font></h2>
+
+                    <div align="center"><img src="paintball1.jpg" width="320px" id="imagen"></div>
+
+                    <br>  <!--Line break-->
+
+                    <div align="center"><img src="paintball2.jpg"  width="320px" id="imagen"></div>
+                
+
+                    <p>¡Lánzate a la aventura con tu equipo! <b>Con más de 50.000 m2, 8 mapas y con los mejores escenarios temáticos de Paintball</b> de Huelva,
+                    disfruta del paintball en un bosque en plena naturaleza.</p>
+                </section>
+
+                <br>
+                
+                <section id="sectioncontenido">
+                    <h2 id="h2"><font face="Arial Black">Paseo en bicicleta</font></h2>
+
+                    <div align="center"><img src="bici1.jpg" width="320px" id="imagen"></div>
+                    <br>
+                    <br>
+                    <div align="center"><img src="bici2.jpg" width="320px" id="imagen"></div>
+
+                    <p>Los Cerezos dispone de más de 30 bicicletas de montaña de todos los tamaños y
+                    para todas las edades. Podrás disfrutar de <b>rutas guiadas por la naturaleza</b>,¡siempre es
+                    una buena opción para mantenerse sano y fuerte!</p>
+                </section> 
+
+                <br>
+                <br>
+
+                <section id="sectioncontenido">
+                    <h2 id="h2"><font face="Arial Black">Paseo en barca</font></h2>
+
+                    <div align="center"><img src="barca1.jfif" width="320px" id="imagen"></div>
+                    <div align="center"><img src="barca2.jpg" width="320px" id="imagen"></div>
+                    <div align="center"><img src="barca3.jfif" width="320px" id="imagen"></div>
+
+                    <p>De algo seguro que no te puedes perder es de nuestro paseo en barca por la <b>laguna El portil</b>,
+                    esta laguna está situada entre las marismas del Odiel y las marismas del río Piedras. Este humedal tiene 
+                    dunas móviles rodeadas por pinos y cerezos, además cuenta con una zona de baño interior: <b>la playa de la Bota.</b> 
+                    Sin duda las vistas sobre el agua de la reserva natural y de los cerezos son todo un espectáculo.</p>
+                </section>
+                
+                <section id="sectioncontenido">
+                <h2 id="h2"><font face="Arial Black">Tiro con arco</font></h2>
+
+                <div align="center"><img src="arco1.jpg" width="320px" id="imagen"></div>
+                <div align="center"><img src="arco2.jpg" width="320px" id="imagen"></div>
+
+                <p>Tenemos una zona entre los cerezos y cerca de la laguna para sacar los arcos
+                y las flechas. Hay diversos <b>mapas con dianas de muchos tamaños y formas entre la naturaleza.</b>
+                ¡Pon aprueba tu puntería!.</p>
+                </section>
+
+                <section id="sectioncontenido">
+                <h2 id="h2"><font face="Arial Black">Cine al aire libre</font></h2>
+
+                <div align="center"><img src="cine.jpg" width="320px" id="imagen"></div>
+
+                <p>¿Has visto una película al aire libre alguna vez? Tenemos una <b>gran pantalla
+                para proyector bajo los cerezos.</b> Disfruta del cine con un paisaje de fondo de la 
+                laguna y bajo las estrellas.</p>
+                </section>
+                
+                </font>
+            </div>
+            </font>
+        </main>
+
+        <footer id="pie">
+            <font face="Arial Black">¡Más información en la página inicial!</font>
+        </footer>
+
+    </body>
+</html>
